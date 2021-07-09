@@ -33,6 +33,7 @@ class ItemEnterEventListener(EventListener):
 class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
         datetime_format = {
+            'YYYY.MM.DD.HH.MM.SS.NNN' : '%Y.%m.%d.%H.%M.%S.%3N' 
             'DD.MM.YYYY HH:MM': '%d.%m.%Y %H:%M',  # '17.05.2020 14:46'
             'DD-MM-YYYY HH:MM': '%d-%m-%Y %H:%M',  # '17-05-2020 14:46'
             'MM-DD-YYYY HH:MM': '%m-%d-%Y %H:%M',  # '05-17-2020 14:46'
