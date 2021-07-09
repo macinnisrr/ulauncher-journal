@@ -28,6 +28,7 @@
             "description": "Choose the date time format you prefer",
             "default_value": "MM/DD/YYYY HH:MM",
             "options": [
+                "YYYY.DD.MM.HH.MM.SS.NNN"
                 "DD.MM.YYYY HH:MM",
                 "DD-MM-YYYY HH:MM",
                 "MM-DD-YYYY HH:MM",
